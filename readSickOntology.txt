@@ -1,0 +1,443 @@
+log4j:WARN No appenders could be found for logger (org.apache.jena.riot.system.stream.JenaIOEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Object Properties:
+
+hasSynset
+hasDerived
+isDerivedFrom
+isSimilarTo
+isHyponymOf
+hasHyponym
+isSynsetOf
+
+Words:
+
+livery
+
+isSimilarTo : sick
+
+vertiginous
+
+isSimilarTo : sick
+
+sick-n
+
+
+regorge
+
+isSynsetOf : sick
+
+recovering
+
+isSimilarTo : sick
+
+paralytic
+
+isSimilarTo : sick
+
+funny
+
+isSimilarTo : sick
+
+nauseous
+
+isSimilarTo : sick
+
+weather
+
+isSimilarTo : sick
+
+stricken
+
+isSimilarTo : sick
+
+spew
+
+isSynsetOf : sick
+
+bedfast
+
+isSimilarTo : sick
+
+sick-a
+
+hasSynset : ill
+isSimilarTo : feverish
+isSimilarTo : airsick
+isSimilarTo : afflicted
+isSimilarTo : swooning
+isSimilarTo : queasy
+isSimilarTo : livery
+isSimilarTo : seasick
+isSimilarTo : bilious
+isSimilarTo : funny
+isSimilarTo : autistic
+isSimilarTo : bedrid
+isSimilarTo : aguish
+isSimilarTo : sneezy
+isSimilarTo : sickish
+isSimilarTo : bronchitic
+isSimilarTo : milk-sick
+isSimilarTo : carsick
+isSimilarTo : air sick
+isSimilarTo : gouty
+isSimilarTo : delirious
+isSimilarTo : dyspeptic
+isSimilarTo : sickly
+isSimilarTo : ailing
+isSimilarTo : feverous
+isSimilarTo : indisposed
+isSimilarTo : convalescent
+isSimilarTo : tubercular
+isSimilarTo : poorly
+isSimilarTo : bedfast
+isSimilarTo : hallucinating
+isSimilarTo : consumptive
+isSimilarTo : liverish
+isSimilarTo : nauseated
+isSimilarTo : peaked
+isSimilarTo : giddy
+isSimilarTo : nauseous
+isSimilarTo : diabetic
+isSimilarTo : unwell
+isSimilarTo : light
+isSimilarTo : rachitic
+isSimilarTo : faint
+isSimilarTo : sick-abed
+isSimilarTo : laid low
+isSimilarTo : lightheaded
+isSimilarTo : rickety
+isSimilarTo : tuberculous
+isSimilarTo : seedy
+isSimilarTo : paralyzed
+isSimilarTo : bedridden
+isSimilarTo : stricken
+isSimilarTo : scrofulous
+isSimilarTo : recovering
+isSimilarTo : light-headed
+isSimilarTo : laid up
+isSimilarTo : under the weather
+isSimilarTo : dizzy
+isSimilarTo : spastic
+isSimilarTo : paraplegic
+isSimilarTo : vertiginous
+isSimilarTo : upset
+isSimilarTo : green
+isSimilarTo : unhealed
+isSimilarTo : palsied
+isSimilarTo : paralytic
+isSimilarTo : woozy
+
+rickety
+
+isSimilarTo : sick
+
+spastic
+
+isSimilarTo : sick
+
+up
+
+isSynsetOf : sick
+
+milk-sick
+
+isSimilarTo : sick
+
+retch
+
+isSynsetOf : sick
+
+indisposed
+
+isSimilarTo : sick
+
+regurgitate
+
+isSynsetOf : sick
+
+sick-v
+
+hasSynset : chuck
+hasSynset : honk
+hasSynset : vomit up
+hasSynset : regorge
+hasSynset : spue
+hasSynset : disgorge
+hasSynset : be sick
+hasSynset : cat
+hasSynset : upchuck
+hasSynset : barf
+hasSynset : puke
+hasSynset : regurgitate
+hasSynset : purge
+hasSynset : retch
+hasSynset : cast
+hasSynset : spew
+hasSynset : vomit
+hasSynset : throw up
+
+gouty
+
+isSimilarTo : sick
+
+queasy
+
+isSimilarTo : sick
+
+seedy
+
+isSimilarTo : sick
+
+bronchitic
+
+isSimilarTo : sick
+
+feverous
+
+isSimilarTo : sick
+
+up
+
+isSynsetOf : sick
+
+palsied
+
+isSimilarTo : sick
+
+tubercular
+
+isSimilarTo : sick
+
+aguish
+
+isSimilarTo : sick
+
+swooning
+
+isSimilarTo : sick
+
+seasick
+
+isSimilarTo : sick
+
+consumptive
+
+isSimilarTo : sick
+
+poorly
+
+isSimilarTo : sick
+
+dizzy
+
+isSimilarTo : sick
+
+sick-abed
+
+isSimilarTo : sick
+
+disgorge
+
+isSynsetOf : sick
+
+unhealed
+
+isSimilarTo : sick
+
+spue
+
+isSynsetOf : sick
+
+diabetic
+
+isSimilarTo : sick
+
+unwell
+
+isSimilarTo : sick
+
+sick
+
+isSimilarTo : sick
+
+up
+
+isSimilarTo : sick
+
+airsick
+
+isSimilarTo : sick
+
+autistic
+
+isSimilarTo : sick
+
+hallucinating
+
+isSimilarTo : sick
+
+giddy
+
+isSimilarTo : sick
+
+vomit
+
+isSynsetOf : sick
+
+ill
+
+isSynsetOf : sick
+
+green
+
+isSimilarTo : sick
+
+sickish
+
+isSimilarTo : sick
+
+feverish
+
+isSimilarTo : sick
+
+woozy
+
+isSimilarTo : sick
+
+peaked
+
+isSimilarTo : sick
+
+carsick
+
+isSimilarTo : sick
+
+bedridden
+
+isSimilarTo : sick
+
+light
+
+isSimilarTo : sick
+
+paraplegic
+
+isSimilarTo : sick
+
+honk
+
+isSynsetOf : sick
+
+nauseated
+
+isSimilarTo : sick
+
+cast
+
+isSynsetOf : sick
+
+afflicted
+
+isSimilarTo : sick
+
+purge
+
+isSynsetOf : sick
+
+sick
+
+isSynsetOf : sick
+
+barf
+
+isSynsetOf : sick
+
+dyspeptic
+
+isSimilarTo : sick
+
+chuck
+
+isSynsetOf : sick
+
+bedrid
+
+isSimilarTo : sick
+
+paralyzed
+
+isSimilarTo : sick
+
+light-headed
+
+isSimilarTo : sick
+
+sneezy
+
+isSimilarTo : sick
+
+sickly
+
+isSimilarTo : sick
+
+upset
+
+isSimilarTo : sick
+
+cat
+
+isSynsetOf : sick
+
+scrofulous
+
+isSimilarTo : sick
+
+tuberculous
+
+isSimilarTo : sick
+
+ailing
+
+isSimilarTo : sick
+
+bilious
+
+isSimilarTo : sick
+
+low
+
+isSimilarTo : sick
+
+faint
+
+isSimilarTo : sick
+
+upchuck
+
+isSynsetOf : sick
+
+rachitic
+
+isSimilarTo : sick
+
+delirious
+
+isSimilarTo : sick
+
+liverish
+
+isSimilarTo : sick
+
+puke
+
+isSynsetOf : sick
+
+lightheaded
+
+isSimilarTo : sick
+
+convalescent
+
+isSimilarTo : sick

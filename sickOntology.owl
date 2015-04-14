@@ -1,0 +1,457 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://example.com/kdmProject/sg3/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/livery">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sick-n">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/vertiginous">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/regorge">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/recovering">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/paralytic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/funny">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/hasDerived">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/nauseous">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/under the weather">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/stricken">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/spew">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/isHyponymOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/bedfast">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sick-a">
+    <j.0:isSimilarTo>paralyzed</j.0:isSimilarTo>
+    <j.0:isSimilarTo>seedy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>gouty</j.0:isSimilarTo>
+    <j.0:isSimilarTo>laid low</j.0:isSimilarTo>
+    <j.0:isSimilarTo>aguish</j.0:isSimilarTo>
+    <j.0:isSimilarTo>sneezy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>under the weather</j.0:isSimilarTo>
+    <j.0:isSimilarTo>vertiginous</j.0:isSimilarTo>
+    <j.0:isSimilarTo>air sick</j.0:isSimilarTo>
+    <j.0:isSimilarTo>bilious</j.0:isSimilarTo>
+    <j.0:isSimilarTo>green</j.0:isSimilarTo>
+    <j.0:isSimilarTo>paralytic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>scrofulous</j.0:isSimilarTo>
+    <j.0:isSimilarTo>feverish</j.0:isSimilarTo>
+    <j.0:isSimilarTo>liverish</j.0:isSimilarTo>
+    <j.0:isSimilarTo>rickety</j.0:isSimilarTo>
+    <j.0:isSimilarTo>recovering</j.0:isSimilarTo>
+    <j.0:isSimilarTo>feverous</j.0:isSimilarTo>
+    <j.0:isSimilarTo>convalescent</j.0:isSimilarTo>
+    <j.0:isSimilarTo>sick-abed</j.0:isSimilarTo>
+    <j.0:isSimilarTo>livery</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:isSimilarTo>consumptive</j.0:isSimilarTo>
+    <j.0:isSimilarTo>spastic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>rachitic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>seasick</j.0:isSimilarTo>
+    <j.0:isSimilarTo>tuberculous</j.0:isSimilarTo>
+    <j.0:hasSynset>ill</j.0:hasSynset>
+    <j.0:isSimilarTo>delirious</j.0:isSimilarTo>
+    <j.0:isSimilarTo>ailing</j.0:isSimilarTo>
+    <j.0:isSimilarTo>afflicted</j.0:isSimilarTo>
+    <j.0:isSimilarTo>bedridden</j.0:isSimilarTo>
+    <j.0:isSimilarTo>bedfast</j.0:isSimilarTo>
+    <j.0:isSimilarTo>dyspeptic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>palsied</j.0:isSimilarTo>
+    <j.0:isSimilarTo>swooning</j.0:isSimilarTo>
+    <j.0:isSimilarTo>milk-sick</j.0:isSimilarTo>
+    <j.0:isSimilarTo>faint</j.0:isSimilarTo>
+    <j.0:isSimilarTo>paraplegic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>upset</j.0:isSimilarTo>
+    <j.0:isSimilarTo>unhealed</j.0:isSimilarTo>
+    <j.0:isSimilarTo>peaked</j.0:isSimilarTo>
+    <j.0:isSimilarTo>queasy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>funny</j.0:isSimilarTo>
+    <j.0:isSimilarTo>nauseated</j.0:isSimilarTo>
+    <j.0:isSimilarTo>sickly</j.0:isSimilarTo>
+    <j.0:isSimilarTo>tubercular</j.0:isSimilarTo>
+    <j.0:isSimilarTo>indisposed</j.0:isSimilarTo>
+    <j.0:isSimilarTo>light</j.0:isSimilarTo>
+    <j.0:isSimilarTo>nauseous</j.0:isSimilarTo>
+    <j.0:isSimilarTo>poorly</j.0:isSimilarTo>
+    <j.0:isSimilarTo>woozy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>diabetic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>sickish</j.0:isSimilarTo>
+    <j.0:isSimilarTo>autistic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>unwell</j.0:isSimilarTo>
+    <j.0:isSimilarTo>stricken</j.0:isSimilarTo>
+    <j.0:isSimilarTo>laid up</j.0:isSimilarTo>
+    <j.0:isSimilarTo>carsick</j.0:isSimilarTo>
+    <j.0:isSimilarTo>giddy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>hallucinating</j.0:isSimilarTo>
+    <j.0:isSimilarTo>bedrid</j.0:isSimilarTo>
+    <j.0:isSimilarTo>lightheaded</j.0:isSimilarTo>
+    <j.0:isSimilarTo>bronchitic</j.0:isSimilarTo>
+    <j.0:isSimilarTo>light-headed</j.0:isSimilarTo>
+    <j.0:isSimilarTo>dizzy</j.0:isSimilarTo>
+    <j.0:isSimilarTo>airsick</j.0:isSimilarTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/spastic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/rickety">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/vomit up">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/indisposed">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/retch">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/milk-sick">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/hasSynset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/regurgitate">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/gouty">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sick-v">
+    <j.0:hasSynset>regorge</j.0:hasSynset>
+    <j.0:hasSynset>cast</j.0:hasSynset>
+    <j.0:hasSynset>cat</j.0:hasSynset>
+    <j.0:hasSynset>purge</j.0:hasSynset>
+    <j.0:hasSynset>upchuck</j.0:hasSynset>
+    <j.0:hasSynset>chuck</j.0:hasSynset>
+    <j.0:hasSynset>honk</j.0:hasSynset>
+    <j.0:hasSynset>disgorge</j.0:hasSynset>
+    <j.0:hasSynset>barf</j.0:hasSynset>
+    <j.0:hasSynset>spue</j.0:hasSynset>
+    <j.0:hasSynset>regurgitate</j.0:hasSynset>
+    <j.0:hasSynset>throw up</j.0:hasSynset>
+    <j.0:hasSynset>vomit</j.0:hasSynset>
+    <j.0:hasSynset>retch</j.0:hasSynset>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:hasSynset>spew</j.0:hasSynset>
+    <j.0:hasSynset>puke</j.0:hasSynset>
+    <j.0:hasSynset>be sick</j.0:hasSynset>
+    <j.0:hasSynset>vomit up</j.0:hasSynset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/isSimilarTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/queasy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/seedy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/bronchitic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/feverous">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/throw up">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/palsied">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/tubercular">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/aguish">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/swooning">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/seasick">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/consumptive">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/poorly">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/dizzy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sick-abed">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/disgorge">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/unhealed">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/spue">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/diabetic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/isDerivedFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/unwell">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/air sick">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/laid up">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/airsick">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/autistic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/hallucinating">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/giddy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/vomit">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/ill">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/green">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sickish">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/feverish">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/woozy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/peaked">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/carsick">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/bedridden">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/light">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/paraplegic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/honk">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/isSynsetOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/nauseated">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/cast">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/afflicted">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/purge">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/be sick">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/barf">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/dyspeptic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/chuck">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/bedrid">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/paralyzed">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/light-headed">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sneezy">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/hasHyponym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/upset">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/sickly">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/cat">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/scrofulous">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/tuberculous">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/ailing">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/bilious">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/laid low">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/upchuck">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/faint">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/rachitic">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/liverish">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/delirious">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/lightheaded">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/puke">
+    <j.0:isSynsetOf>sick</j.0:isSynsetOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/kdmProject/sg3/convalescent">
+    <j.0:isSimilarTo>sick</j.0:isSimilarTo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
