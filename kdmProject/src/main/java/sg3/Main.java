@@ -2,6 +2,7 @@ package sg3;
 
 import rita.RiWordNet;
 
+import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
@@ -9,6 +10,7 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 
 public class Main {
     static final String NS = "http://example.com/kdmProject/sg3/";
+    static final String WORD_CLASS = NS + "word";
 
     public static void main(final String[] args) {
         if (args.length > 1 || args.length == 0) {
@@ -18,6 +20,7 @@ public class Main {
         }
         final RiWordNet wordnet = new RiWordNet("/usr/local/WordNet-3.0");
         OntModel m = ModelFactory.createOntologyModel();
+        final OntClass wordClass = m.createClass(WORD_CLASS);
 
         // Define the type of relationships
 
@@ -35,13 +38,13 @@ public class Main {
         final String[] posList = wordnet.getPos(word);
         for (final String pos : posList) {
             System.out.println("\nPoS: " + pos);
-            final OntClass wordClass = m.createClass(NS + word + "-" + pos);
+            final Individual individualWord = m.createIndividual(NS + word + "-" + pos, wordClass);
 
             final String[] synsets = wordnet.getSynset(word, pos);
             if (synsets.length > 0) {
                 System.out.println("\nSynset for " + word + " (pos: " + pos + ")");
                 for (final String synset : synsets) {
-                    m = createRelation(m, word, wordClass, hasSynset, synset, isSynsetOf);
+                    m = createRelation(m, wordClass, word, individualWord, hasSynset, synset, isSynsetOf);
                     System.out.println(synset);
                 }
             }
@@ -50,7 +53,7 @@ public class Main {
             if (hyponyms.length > 0) {
                 System.out.println("\nHyponyms for " + word + ":");
                 for (final String hyponym : hyponyms) {
-                    m = createRelation(m, word, wordClass, hasHyponym, hyponym, isHyponymOf);
+                    m = createRelation(m, wordClass, word, individualWord, hasHyponym, hyponym, isHyponymOf);
                     System.out.println(hyponym);
                 }
             }
@@ -61,7 +64,7 @@ public class Main {
                 if (similarList.length > 0) {
                     System.out.println("\nWords similar to " + word + " (pos: " + pos + ")");
                     for (final String similarStr : similarList) {
-                        m = createRelation(m, word, wordClass, isSimilarTo, similarStr, isSimilarTo);
+                        m = createRelation(m, wordClass, word, individualWord, isSimilarTo, similarStr, isSimilarTo);
                         System.out.println(similarStr);
                     }
                 }
@@ -72,7 +75,7 @@ public class Main {
                 if (derivedTerms.length > 0) {
                     System.out.println("\nDerived terms for " + word + ":");
                     for (final String derivedTerm : derivedTerms) {
-                        m = createRelation(m, word, wordClass, hasDerived, derivedTerm, isDerivedFrom);
+                        m = createRelation(m, wordClass, word, individualWord, hasDerived, derivedTerm, isDerivedFrom);
                         System.out.println(derivedTerm);
                     }
                 }
@@ -83,14 +86,14 @@ public class Main {
         m.write(System.out, null);
     }
 
-    private static OntModel createRelation(final OntModel m, final String word, final OntClass wordClass,
+    private static OntModel createRelation(final OntModel m, final OntClass wordCLass, final String word, final Individual individualWord,
             final ObjectProperty wordProperty, final String relatedWord, final ObjectProperty relatedWordProperty) {
         // add the property to the primary word
-        wordClass.addProperty(wordProperty, relatedWord);
+        individualWord.addProperty(wordProperty, relatedWord);
 
         // create the related word
-        final OntClass relatedWordClass = m.createClass(NS + relatedWord);
-        relatedWordClass.addProperty(relatedWordProperty, word);
+        final Individual relatedIndividualWord = m.createIndividual(NS + relatedWord, wordCLass);
+        relatedIndividualWord.addProperty(relatedWordProperty, word);
 
         return m;
     }
